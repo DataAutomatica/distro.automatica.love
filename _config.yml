@@ -1,0 +1,50 @@
+# site settings
+title: Distro Automatica
+subtitle: Zines & Art
+email: distro@automatica.love
+description: Zine and art distributor
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://distro.automatica.love"
+author:
+street_address:
+city: Brooklyn
+state: NY
+zip_code:
+country: USA1
+phone:
+
+future: true
+
+menu:
+  - title: "Zines"
+    url: "/zines"
+  - title: ""
+    url: "javascript:void(0)"
+  - title: "Data Automatica"
+    url: "https://data.automatica.love"
+  - title: "JustUs Automatica"
+    url: "https://justus.automatica.love"
+
+collections:
+    zines:
+      output: true
+      permalink: /:collection/:path
+
+# homepage tiles
+tiles-source: zines # accepts "zines" or "pages"
+tiles-count: 6
+
+# social settings
+500px_url:
+facebook_url:
+github_url:
+etsy_url:
+instagram_url:
+pinterest_url:
+twitter_url:
+
+# build settings
+markdown: kramdown
+
+sass:
+  style: compressed
